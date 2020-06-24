@@ -8,15 +8,14 @@ var User = new Schema({
         type:String,
         default:' '
     },
-    secondname:{
+    lastname:{
         type:String,
         default:' '
     },
     admin:   {
         type: Boolean,
         default: false
-    },
-    facebookId: String
+    }
 });
 
 
